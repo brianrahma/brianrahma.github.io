@@ -272,6 +272,17 @@ section .toggle-btn .pre {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+#slideshow .icon-first {
+	color:#ED5A64;
+}
+
+#slideshow i {
+	color:#ED5A64;	
+}
+
+.carousel-inner {
+	margin-bottom:15px;
+}
 
 @media (min-width: 1024px) {
   #hero {
@@ -435,6 +446,11 @@ section {
 #skills .toggle-btn .pre {
   color: #18122b;
 }
+.skills .container {
+  max-width: 90%;
+  padding: 50px;
+}
+
 .progress-wrap h3 {
   font-size: 16px;
   font-family: "Quicksand", Arial, sans-serif;
@@ -584,6 +600,7 @@ section {
 
 .education .container {
   max-width: 90%;
+  padding: 50px;
 }
 
 .education .education-title {
@@ -645,7 +662,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Experience
 --------------------------------------------------------------*/
 .experience .toggle-btn .next,
 .experience .toggle-btn .pre {
@@ -654,6 +671,7 @@ section {
 
 .experience .container {
   max-width: 90%;
+  padding: 50px;
 }
 
 .experience .experience-title {
